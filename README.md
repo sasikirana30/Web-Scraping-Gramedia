@@ -20,6 +20,33 @@ Project ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) meng
       2. Data yang diambil : Judul buku , harga , penulis dan diskon 
       3. Jumlah data yang berhasil di ambil 221 baris data dan 4 kolom. 
   ### B. Transform
+      1. Data Exploration : 
+          - df.info()
+          - df.describe()
+          - df.isnull().sum()
+      2. Data Cleaning : 
+          - Menangani missing values 
+          - Membersihkan kolom harga 
+          - Membersihkan kolom diskon 
+          - Validasi tipe data 
+      3. Export CVS 
+  ### C. Load 
+      1. Pembuatan database 
+      2. Import CSV ke Staging
+      3. Load ke Tabel Final
+
+--- 
+## Tools and Technologies 
+- Python 
+- Jupyter Notebook
+- Pandas
+- Requests
+- BeautifulSoup4
+- PostgreSQL
+- pgAdmin 4
+
+
+      
   
       
   
